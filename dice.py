@@ -3,6 +3,7 @@
 import random
 
 class Die:
+    ## Attributes not variables. ATTRIBUTES
     __value:int = 1 # If you want this to be private add double underscore to the prefix.
 
     # If the value is between 1 and 6 continue. If not closes the program.
